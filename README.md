@@ -1,6 +1,6 @@
 # ProteinAndRNA #
 
-#get_sequence.py
+**get_sequence.py**
 **This script could extract peak sequences from the bed file and reference genome fasta file (hg19.fa).**
 
 Note: the necessary modules: pyfasta
@@ -15,8 +15,9 @@ For example:
 	
 	python get_sequence.py -i /home/gao/neuralnetwork/coding/2.CNN/example.data/ZC3H11A_HepG2_IDR -o /home/gao/neuralnetwork/coding/2.CNN/example.data/ZC3H11A_HepG2_IDR-sequence -f /home/gao/neuralnetwork/coding/2.CNN/example.data/hg19.fa
 
+Note: the hg19.fa file is downloaded from UCSC(https://www.genome.ucsc.edu/).
     
-##trainCNN.py
+**trainCNN.py**
 **This script could split raw dataset into train, validation and test datasets. After that, it will train CNN model and return the performances(accuracy, precision, sensitivity, specificity, MCC, AUC ) of models. The performance file is saved in cvperformance.csv. The models with different parameters are saved in models path.**
 
  
@@ -41,7 +42,7 @@ For example:
 	python trainCNN.py -p /home/gao/neuralnetwork/coding/2.CNN/example.data -r ZC3H11A -1 /home/gao/neuralnetwork/coding/2.CNN/example.data/ZC3H11A_HepG2_rep01-sequence -2 /home/gao/neuralnetwork/coding/2.CNN/example.data/ZC3H11A_HepG2_rep02-sequence -f /home/gao/neuralnetwork/coding/2.CNN/example.data/ZC3H11A_HepG2_IDR-sequence
 
 
-##GetSequenceLogo.py
+**GetSequenceLogo.py**
 **This script could get the motif sequences.**
 
 Usage: 
@@ -65,7 +66,7 @@ For example:
 	   -y /home/gao/neuralnetwork/coding/2.CNN/example.data/ZC3H11A/test_y.npy \
 	   -e /home/gao/neuralnetwork/coding/2.CNN/example.data/ZC3H11A/test_y_encoded.npy
 
-##DrawLogoHeatmap.R
+**DrawLogoHeatmap.R**
 **This script could draw motif heatmap.**
 
 
@@ -82,7 +83,7 @@ For example:
 
 
 
-##RBPAndLncrnaPredict.py
+**RBPAndLncrnaPredict.py**
 **This script could predict the protein and lncRNA binding situation.**
 
 Usage: 
