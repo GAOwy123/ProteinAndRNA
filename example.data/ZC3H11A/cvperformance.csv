@@ -1,0 +1,3 @@
+learning_rate,weight_decay,dropout,momentum,accuracy,precision,sensitivity,specificity,MCC,AUC
+0.001,0.0001,0.2,0.1,0.8210023866348448,0.8246445497630331,0.8207547169811321,0.821256038647343,0.6419814981829463,0.8210053778142375
+learning_rate,weight_decay,dropout,momentum,accuracy,precision,sensitivity,specificity,MCC,AUC
