@@ -1,6 +1,7 @@
 # ProteinAndRNA #
 
 **get_sequence.py**
+
 **This script could extract peak sequences from the bed file and reference genome fasta file (hg19.fa).**
 
 Note: the necessary modules: pyfasta
@@ -18,6 +19,7 @@ For example:
 Note: the hg19.fa file is downloaded from UCSC(https://www.genome.ucsc.edu/).
     
 **trainCNN.py**
+
 **This script could split raw dataset into train, validation and test datasets. After that, it will train CNN model and return the performances(accuracy, precision, sensitivity, specificity, MCC, AUC ) of models. The performance file is saved in cvperformance.csv. The models with different parameters are saved in models path.**
 
  
@@ -43,6 +45,7 @@ For example:
 
 
 **GetSequenceLogo.py**
+
 **This script could get the motif sequences.**
 
 Usage: 
@@ -67,6 +70,7 @@ For example:
 	   -e /home/gao/neuralnetwork/coding/2.CNN/example.data/ZC3H11A/test_y_encoded.npy
 
 **DrawLogoHeatmap.R**
+
 **This script could draw motif heatmap.**
 
 
@@ -84,6 +88,7 @@ For example:
 
 
 **RBPAndLncrnaPredict.py**
+
 **This script could predict the protein and lncRNA binding situation.**
 
 Usage: 
