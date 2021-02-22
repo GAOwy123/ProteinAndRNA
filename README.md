@@ -16,7 +16,9 @@ For example:
 	
 	python get_sequence.py -i /home/gao/neuralnetwork/coding/2.CNN/example.data/ZC3H11A_HepG2_IDR -o /home/gao/neuralnetwork/coding/2.CNN/example.data/ZC3H11A_HepG2_IDR-sequence -f /home/gao/neuralnetwork/coding/2.CNN/example.data/hg19.fa
 
-Note: the hg19.fa file is downloaded from UCSC(https://www.genome.ucsc.edu/).
+Note: the hg19.fa file is downloaded from UCSC(https://www.genome.ucsc.edu/). You can also download from  link https://pan.baidu.com/s/1UK3pv_qbvgCrAKT8ywiWcQ and its
+extraction code is j41c.
+
     
 **trainCNN.py**
 
